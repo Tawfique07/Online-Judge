@@ -1,1 +1,10 @@
 *.exe
+*.o
+.project
+.cproject
+.settings/
+.idea/
+cmake-build-debug/
+CMakeLists.txt
+Debug/
+
