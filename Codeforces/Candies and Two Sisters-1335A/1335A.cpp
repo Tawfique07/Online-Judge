@@ -5,19 +5,16 @@ using namespace std;
 int main() {
     int T;
     cin >> T;
-    while (T--){
-        int n,ans;
+    while (T--) {
+        int n, a, b;
         cin >> n;
-        if(n<3){
-            cout<< 0 << endl;
+        b = n/2;
+        a = n - b;
+        if(a==b){
+            cout << b -1 << endl;
         }
         else {
-            ans = n / 2;
-            if (ans % 2) {
-                cout << ans << endl;
-            } else {
-                cout << ans - 1 << endl;
-            }
+            cout << b << endl;
         }
     }
     return 0;
