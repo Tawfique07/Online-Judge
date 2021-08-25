@@ -1,6 +1,7 @@
 *.exe
 *.o
 *.bin
+.vscode
 .cph/
 .project
 .cproject
